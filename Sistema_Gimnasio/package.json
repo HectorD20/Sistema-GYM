@@ -1,0 +1,20 @@
+{
+  "name": "api-gimnasio",
+  "version": "1.0.0",
+  "description": "API REST para administrar socios, membresias, entrenadores, clases y reservas de gimnasio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["gimnasio", "api", "postgresql"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
